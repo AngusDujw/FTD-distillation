@@ -19,7 +19,7 @@ The task of "Dataset Distillation" is to learn a small number of synthetic image
 
 ## Accumulated Trajectory Error
 
-![Teaser image](docs/illustrate.pdf)
+![Teaser image](docs/illustrate.png)
 
 State-of-the-art methods primarily rely on
 learning the synthetic dataset by matching the gradients obtained
@@ -31,7 +31,7 @@ mitigate the adverse impact of this accumulated trajectory
 error, we propose a novel approach that encourages the optimization
 algorithm to seek a flat trajectory.
 
-<img src='docs/accumulate_loss.pdf' width=600>
+<img src='docs/accumulate_loss.png' width=600>
 
 The flat trajectory distillation (FTD) in purple line mitigates the so-called accumulated trajectory error than the baseline in blue line. 
 
