@@ -71,7 +71,7 @@ CUDA_VISIBLE_DEVICES=0 python distill_FTD.py --dataset=CIFAR100 --ipc=10 --syn_s
     --lr_img=1000 --lr_lr=1e-05 --lr_teacher=0.01 --ema_decay=0.9995 --Iteration=5000 --buffer_path={path_to_buffer_storage} --data_path={path_to_dataset}
 ```
 
-<img src='docs/results.png' width=800>
+<img src='docs/results.png' width=800 >
 
 Please find a full list of hyper-parameters below:
 <img src='docs/parameters.png' width=600>
